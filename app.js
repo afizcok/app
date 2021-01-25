@@ -14,7 +14,7 @@ const jsonParser = bodyParser.json()
 const app = express();
 const server = http.createServer(app);
 
-const callback_server = "http://wasap.ahmadhafizh.com/";
+const callback_server = "https://wasap.ahmadhafizh.com/";
 
 app.use(express.json());
 app.use(express.urlencoded({
